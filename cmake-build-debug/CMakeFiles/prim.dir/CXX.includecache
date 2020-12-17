@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twlin/NCTU/Courses/Advanced_Algorithms/hw5/prim/main.cpp
+iostream
+-
+vector
+-
+iomanip
+-
+string
+-
+fstream
+-
+sstream
+-
+
