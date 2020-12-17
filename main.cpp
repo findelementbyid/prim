@@ -111,7 +111,7 @@ vector<vector<int>> read_csv(string filePath, int n) {
 int main(){
 
     for (auto k = 10; k <= 50; k += 10) {
-        vector<vector<int>> data = read_csv("/Users/twlin/NCTU/Courses/Advanced_Algorithms/hw5/src/test.csv", k);
+        vector<vector<int>> data = read_csv("/ Home / Absolute Path / FILE.csv", k);
         GraphMST g(k);
 
         for (auto i = 0; i < data.size(); i++)
